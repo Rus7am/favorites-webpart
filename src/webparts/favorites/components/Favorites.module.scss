@@ -1,0 +1,29 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.favorites {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+  }
+
+  .row {
+    @include ms-Grid-row;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+  }
+
+  .document {
+    text-decoration: none;
+    @include ms-fontColor-neutralPrimary;
+  }
+}
